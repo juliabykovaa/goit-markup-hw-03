@@ -41,12 +41,11 @@ p {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .logo,
 .color-logo {
     color: var(--primary-text-color);
@@ -169,9 +168,8 @@ p {
     display: flex;
 }
 
-.feature-list .item + .item {
-margin-left: 30px;
-
+.feature-list item:not(:first-child) {
+    margin-left: 30px;
 }
 
 .feature-title {
