@@ -166,7 +166,6 @@ p {
 
 .feature-list {
     display: flex;
-    
 }
 
 .feature-list .item:not(:first-child) {
@@ -202,7 +201,6 @@ p {
 }
 
 .activity {
-    width: 1170px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
