@@ -189,7 +189,7 @@ p {
 }
 
 .feature-list .item {
-    width: calc((100% - 90px) / 1);
+    width: calc((100% - 90px) / 4);
     margin-right: 30px;
     
 }
@@ -279,7 +279,7 @@ p {
 }
 
 .member-card .item {
-    width: calc((100% - 90px) / 1);
+    width: calc((100% - 90px) / 4);
     margin-right: 30px;
     display: inline-block;
     background-color: var(--primary-white-color);
@@ -362,7 +362,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
          
 
@@ -372,21 +372,21 @@ p {
 }
 
 .project-names {
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
-    padding-right: 24px ;
+    padding-right: 24px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-top: 0;
 }
 
 
 .flex-container .flex-item {
-    width: calc((100% - px) / 3);
+    width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.flex-item .image {
-    margin-bottom: 20px;
-}
  
 .flex-container .flex-item:nth-child(3n){
     margin-right: 0;
