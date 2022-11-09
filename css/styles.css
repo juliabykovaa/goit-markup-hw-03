@@ -241,7 +241,6 @@ p {
 }
 
 .act-list .item {
-    width: calc(100% - 60px)/1;
     margin-right: 30px;
 }
 
