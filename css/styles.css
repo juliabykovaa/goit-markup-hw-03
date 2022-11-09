@@ -241,7 +241,7 @@ p {
 }
 
 .act-list .item {
-    width: 370px;
+    width: calc(100% - 60px)/1;
     margin-right: 30px;
 }
 
@@ -275,6 +275,8 @@ p {
 }
 
 .member-card .item {
+    width: calc((100% - 90px) / 1);
+    margin-right: 30px;
     display: inline-block;
     background-color: var(--primary-white-color);
     border-radius: 0px 0px 4px 4px;
@@ -284,9 +286,10 @@ p {
                 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.member-card .item:not(:first-child) {
-    margin-left: 30px;
+.member-card .item:last-child {
+    margin-right: 0;
 }
+
 
 .filter-buttons {
     margin-right: 8px;   
@@ -372,12 +375,12 @@ p {
 
 
 .flex-container .flex-item {
-    flex-basis: calc((100% - px) / 3);
+    width: calc((100% - px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.flex-item .image{
+.flex-item .image {
     margin-bottom: 20px;
 }
  
