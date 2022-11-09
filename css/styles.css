@@ -188,8 +188,13 @@ p {
     display: flex;
 }
 
-.feature-list .item:not(:first-child) {
-    margin-left: 30px;
+.feature-list .item {
+    width: calc((100% - 90px) / 1);
+    margin-right: 30px;
+    
+}
+.feature-list .item:last-child {
+    margin-right: 0px;
 }
 
 .feature-title {
